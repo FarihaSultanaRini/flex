@@ -1,0 +1,362 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+h1,h2{
+  font-family: 'Alfa Slab One', cursive;
+
+}
+  h3,h4,h5,h6{
+    
+font-family: 'Bebas Neue', cursive;
+
+  }
+
+  p,span,input{
+    
+font-family: 'Montserrat', sans-serif;
+  }
+
+.container{
+    width:1140px;
+    margin: auto;
+  }
+/* global section end */
+
+  .header{
+    width:100%;
+    background: url("../img/banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   height: 100vh;
+  }
+   .navber{
+     width:100%;
+     display:flex;
+     justify-content: space-between;
+     padding:40px 0;
+  }
+   
+  .menu{
+    align-items: center;
+    display:flex;
+
+  }
+
+  .menu ul li{
+   
+    list-style: none;
+    display:inline-block;
+    text-transform: uppercase; 
+    margin-left:15px;
+  }
+
+
+  .menu ul li a{
+  font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #3d2514;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: 0.5s ease-in-out;
+  }
+
+   .menu ul li a:hover{
+     color:red;
+     transition: 0.5s ease-in-out;
+   }
+   .banner-text{
+   height: 60vh;
+    vertical-align: middle;
+    display: table-cell ; 
+     
+   }
+   /* .textbody{
+     padding-top: 80px;
+   } */
+   .textbody h1{
+         font-size: 83px;
+    color: #3d2514;
+    letter-spacing: 4px;
+        text-shadow: 5px 3px white;
+
+   }
+
+   .textbody h2{
+     font-size: 43px;
+    color: #3d2514;
+    letter-spacing: 4px;
+    text-shadow: 3px 2px white;
+   }
+
+   .textbody h3{
+     border: 2px dashed #3d2514;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 400;
+   }
+
+
+.logopart{
+ 
+ margin-left:600px;
+margin-top:-1500px;
+ 
+  display:inline-block;
+   border-radius:60%;
+  background-color: red;
+  padding:18px;
+  color:white;
+    
+
+}
+
+
+
+.innerborder  {
+  border-radius:50%;
+  padding:25px;
+
+  border:1px dashed white;
+
+}
+
+.innerborder{
+  text-align: center;
+}
+
+/* banner header part end */
+/* blog gallary start: */
+.bloggallary{
+  width: 100%;
+  padding:70px 0;
+}
+
+.gallary{
+  display: flex;
+  justify-content: space-around;
+}
+
+.blogleft{
+  position: relative;
+  padding:15px ;
+
+}
+
+.text{
+  position: absolute;
+  top:30px;
+  left:40px;
+  color:white;
+}
+
+.text h4{
+  font-size:20px;
+
+    text-transform: uppercase;
+
+}
+
+.text h3{
+  font-size:30px;
+  letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.top , .bottom{
+  margin-top:15px;
+  position: relative;
+}
+
+.top{
+  margin-bottom: 28px;;
+}
+.bloggallary .button{
+  text-align: center;
+
+}
+
+.bloggallary .button button{
+ padding: 16px 20px;
+    background: transparent;
+    border: none;
+    
+ 
+   background: #FFC135;
+    color: black;
+    
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+ 
+}
+/* bolg gallary end */
+/* blog item gallry start */
+
+.blogitem{
+  width:100%;
+
+
+}
+.title h1{
+  text-align: center;
+  font-size: 43px;
+    color: #3d2514;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.title p{
+  text-align: center;
+  line-height: 25px;
+}
+
+.itemgallary{
+  margin:40px 0;
+  display: flex;
+}
+.item{
+  padding:15px;
+  text-align: center;
+}
+
+.itemgallary .item h3{
+  font-size: 32px;
+ 
+  
+
+    margin-bottom: 10px;
+}
+
+.item p{
+  margin-bottom: 30px;
+}
+
+.item button{
+  padding: 12px 40px;
+    background: transparent;
+    border: none;
+    
+ 
+   background:red;
+    color: white;
+    
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+   
+}
+
+/* blog item gallary end */
+/* event part start" */
+.event{
+  margin-top: 90px;
+  width:100%;
+
+ 
+}
+
+.eventbody{
+  width: 100%;
+  display: flex;
+  padding:30px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 10px 10px 30px #aaaaaa;
+  margin-bottom: 60px;
+ 
+
+  
+}
+
+.eventext{
+  margin-top:50px;
+  background-color: white;
+ color: #3d2514;
+ 
+ 
+
+
+  
+
+}
+
+.eventext h4{
+  font-size: 35px;
+  text-transform: uppercase;
+ 
+}
+
+.eventext h3{
+  font-size: 50px;
+  text-transform: uppercase;
+ 
+    
+  
+}
+
+.eventext p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-right:30px;
+  font-size: 20px;
+  padding-left:-40px;
+  width: 70%;
+  color: black;
+
+
+}
+
+
+
+
+
+
+.owl-theme  .owl-nav{
+  display:none;
+}
+.owl-theme .owl-dots{
+  position: absolute;
+  left:20px;
+}
+
+
+
+.owl-theme .eventext{
+   text-align: left; 
+
+   
+   
+ 
+  
+}
+
+.owl-theme .eventimg {
+  width: 100%;
+  margin-left:-200px;
+  
+}
+
+.owl-theme .eventimg img{
+  height: 50vh;
+  width: 80vh;
+}
+
+
+
+
+
+
+
+
+  
